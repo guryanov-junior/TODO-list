@@ -1,6 +1,6 @@
 <h1 align="center">TODO-list</h1>
 
-:::image type="content" source="readme_assets/main.png" alt-text="main":::
+<img src="./readme_assets/main.png" width="100%">
 
 </br>
 
@@ -20,11 +20,11 @@
 
 - #### Фильтр заметок по тегу
 
-:::image type="content" source="readme_assets/filter.png" alt-text="filter":::
+<img src="./readme_assets/filter.png">
 
 - #### Удаление тегов из списка нажатием на него
 
-:::image type="content" source="readme_assets/delete.png" alt-text="delete":::
+<img src="./readme_assets/delete.png">
 
 - #### Во время создания или редактирования заметки пользователь может создавать теги, используя символ **#**
 
