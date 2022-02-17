@@ -22,7 +22,7 @@
 
 <img src="./readme_assets/filter.png">
 
-- #### Удаление тегов из списка нажатием на него
+- #### Удаление тега из списка нажатием на него
 
 <img src="./readme_assets/delete.png">
 
