@@ -1,0 +1,100 @@
+.todo-text {
+  cursor: pointer;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin: 8px auto;
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 118, 20, 1) 0%,
+    rgba(255, 84, 17, 1) 100%
+  );
+  padding: 8px;
+  border-radius: 5px;
+  width: 90%;
+  font-size: 14px;
+
+  &:nth-child(6n + 1) {
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+  }
+
+  &:nth-child(6n + 2) {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 12, 241, 1) 0%,
+      rgba(250, 0, 135, 1) 100%
+    );
+  }
+
+  &:nth-child(6n + 5) {
+    background: linear-gradient(
+      90deg,
+      rgb(76, 194, 86) 0%,
+      rgba(5, 172, 19, 1) 100%
+    );
+  }
+
+  &:nth-child(6n + 4) {
+    background: linear-gradient(
+      90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%
+    );
+  }
+
+  &:nth-child(6n + 3) {
+    background: linear-gradient(
+      90deg,
+      rgba(247, 82, 82, 1) 0%,
+      rgba(255, 20, 20, 1) 100%
+    );
+  }
+}
+
+.icons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+
+  .delete-icon {
+    margin-right: 5px;
+  }
+
+  .edit-icon {
+    margin-left: 5px;
+  }
+}
+
+.item-enter {
+  opacity: 0;
+  transform: translateX(-200px);
+}
+.item-enter-active {
+  opacity: 1;
+  transition: all 200ms ease-in;
+  transform: translateX(0px);
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 200ms ease-in;
+}

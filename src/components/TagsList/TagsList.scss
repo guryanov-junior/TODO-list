@@ -1,0 +1,18 @@
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 4px;
+  width: 90%;
+  margin: 0 auto 12px auto;
+
+  span {
+    cursor: pointer;
+    transition: color 0.1s ease-in-out;
+
+    &:hover {
+      color: #ba77f5;
+      text-decoration: line-through;
+    }
+  }
+}

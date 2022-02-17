@@ -1,0 +1,13 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background: #010313;
+  text-align: center;
+  margin: 60px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  box-shadow: 5px 5px 5px 0#212955;
+}
