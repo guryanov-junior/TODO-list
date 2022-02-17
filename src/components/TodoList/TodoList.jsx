@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import { SearchInput } from '../SearchInput/SearchInput';
 import { TagsList } from '../TagsList/TagsList';
 import { Todo } from '../Todo/Todo';
 import { TodoForm } from '../TodoForm/TodoForm';
@@ -109,12 +110,12 @@ const TodoList = () => {
         <TagsList tags={tags} removeTags={removeTags} />
       ) : null}
 
-      <input
-        className='search-input'
-        placeholder='Найти заметки по тегу'
-        ref={inputRef}
-        onChange={(e) => inputHandleChange(e.target.value)}
-      />
+      {todos.length > 0 ? (
+        <SearchInput
+          inputHandleChange={inputHandleChange}
+          inputRef={inputRef}
+        />
+      ) : null}
 
       <TodoForm onSubmit={addTodo} />
 
