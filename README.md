@@ -6,9 +6,9 @@
 
 </br>
 
-## Описание
+## Description
 
-#### Приложение представляет собой вариант текстового редактора заметок с возможностью добавления тегов
+#### This app is a todo list with the ability to add tags
 
 </br>
 
@@ -20,35 +20,37 @@
 
 </br>
 
-## Возможности
+## Features
 
-- #### Создание, редактирование, просмотр и удаление заметок
+- #### Create, edit, view and delete notes
 
-- #### Фильтр заметок по тегу
+- #### Filter notes by tag
 
 <img src="./readme_assets/filter.png">
 
-- #### Удаление тега из списка нажатием на него
+- #### Removing a tag from the list by clicking on it
 
 <img src="./readme_assets/delete.png">
 
-- #### Во время создания или редактирования заметки пользователь может создавать теги, используя символ **#**
+- #### While creating or editing a note, the user can create tags using **#**
 
 </br>
 
-## Технологии в проекте
+## Tech
 
-#### Проект разработан на **React** с использованием препроцессора **SCSS**
+#### Powered by **React** with using **SCSS**
 
 </br>
 
-## Установка и запуск
+## Setup and Launch
 
 ```
 git clone https://github.com/guryanov-junior/TODO-list.git
-# установить зависимости в проект
+
+#install the project dependencies
 $ npm install
-# запуск для просмотра
+
+# watches your files and uses livereload by default
 $ npm start
 ```
 
