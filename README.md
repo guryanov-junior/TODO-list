@@ -1,5 +1,7 @@
 <h1 align="center">TODO-list</h1>
 
+</br>
+
 <img src="./readme_assets/main.png">
 
 </br>
@@ -10,7 +12,11 @@
 
 </br>
 
-<h2 align="center"><a  href="https://gracious-torvalds-890dc4.netlify.app/">Демо</a></h2>
+---
+
+### <p align="center"><a  href="https://gracious-torvalds-890dc4.netlify.app/">Live Demo</a></p>
+
+---
 
 </br>
 
