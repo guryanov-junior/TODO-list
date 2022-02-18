@@ -1,6 +1,10 @@
 <h1 align="center">TODO-list</h1>
 
+<<<<<<< HEAD
 <img src="./readme_assets/main.png">
+=======
+<img src="./readme_assets/main.png" width="100%">
+>>>>>>> d81b54175fa8a9c4b7951639fe3f7825b0d2cefe
 
 </br>
 
