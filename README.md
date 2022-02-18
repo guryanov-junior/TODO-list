@@ -45,8 +45,11 @@
 ## Установка и запуск
 
 ```
-npm install
-npm start
+git clone https://github.com/guryanov-junior/TODO-list.git
+# установить зависимости в проект
+$ npm install
+# запуск для просмотра
+$ npm start
 ```
 
 </br>
