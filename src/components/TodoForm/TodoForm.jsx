@@ -23,28 +23,28 @@ const TodoForm = (props) => {
         <>
           <input
             type='text'
-            placeholder='Редактировать'
+            placeholder='Edit'
             value={input}
             name='text'
             onChange={handleChange}
             className='todo-input edit'
           />
           <button onClick={handleSubmit} className='todo-button edit'>
-            Изменить
+            Save
           </button>
         </>
       ) : (
         <>
           <input
             type='text'
-            placeholder='Добавить заметку'
+            placeholder='Ad todo'
             value={input}
             name='text'
             onChange={handleChange}
             className='todo-input'
           />
           <button onClick={handleSubmit} className='todo-button'>
-            Добавить
+            Add
           </button>
         </>
       )}

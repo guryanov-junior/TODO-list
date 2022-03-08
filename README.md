@@ -14,7 +14,7 @@
 
 ---
 
-### <p align="center"><a  href="https://gracious-torvalds-890dc4.netlify.app/">Live Demo</a></p>
+### <p align="center"><a  href="https://goofy-euclid-1b070e.netlify.app/">Live Demo</a></p>
 
 ---
 

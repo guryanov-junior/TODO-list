@@ -7,7 +7,7 @@ const SearchInput = (props) => {
   return (
     <input
       className='search-input'
-      placeholder='Найти заметки по тегу'
+      placeholder='Sort with tags'
       ref={inputRef}
       onChange={(e) => inputHandleChange(e.target.value)}
     />

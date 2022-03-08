@@ -102,7 +102,7 @@ const TodoList = () => {
 
   return (
     <div className='todoList'>
-      <h1>Список заметок</h1>
+      <h1>Todo List</h1>
 
       <hr />
 
